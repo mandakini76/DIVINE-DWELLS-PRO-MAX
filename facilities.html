@@ -11,62 +11,96 @@
         body {
             margin: 0px;
             font-family: 'Montserrat', sans-serif;
-
         }
-
         /*nav bar css*/
-
+        
         .nav-bar {
             display: flex;
             justify-content: space-between;
             padding: 35px;
         }
-
+        
         .logo a {
             text-decoration: none;
             color: darkorange;
         }
-
+        
         .logo a:hover {
             color: rgb(214, 120, 4)
         }
-
+        
         .right {
             display: flex;
         }
-
+        
         .nav-bar>.right>div {
             margin-right: 20px;
             text-transform: uppercase;
             font-size: 0.9em;
         }
-
+        
         .nav-link {
             height: 20px;
             border-bottom: 1px solid transparent;
             transition: border-bottom 0.5s;
         }
-
+        
         .nav-link a {
             color: #525252;
             text-decoration: none;
             transition: color 0.5s;
         }
-
+        
         .nav-link:hover {
             border-bottom: 1px solid darkorange
         }
-
+        
         .nav-link a :hover {
             color: darkorange
         }
-
+        
         .active-nav-link {
             border-bottom: 1px solid darkorange;
         }
-
+        
         .active-nav-link a {
             color: darkorange !important;
+        }
+        
+        .r1 {
+            content: "";
+            clear: both;
+            display: table;
+            width: 100%, black;
+            height: 25%;
+        }
+        
+        .column {
+            float: left;
+            width: 30%;
+            margin-left: 2%;
+            padding: 5px;
+            box-align: center;
+        }
+        
+        .c {
+            color: #525252;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+        
+        .para {
+            font-size: large;
+            color: chartreuse;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        .D {
+            border: 1px;
+            width: 76%;
+            height: 100px;
+            margin-left: 12%;
         }
     </style>
 
@@ -109,8 +143,23 @@
                 </div>
             </div>
         </div>
+        <div class="D">
+            <p class="para">We are backed by the stability and strength of our developer, invest at DIVINE DWELLS. Secure your investment through our assurance of quality, uniformity and beauty. Luxury Living. Designer Spaces.<br> A City within a City.</p>
+        </div>>
+        <br>
+        <h1 class="c">GYMNASIUM</h1>
+        <div class="r1">
+            <div class="column">
+                <img src="43.jpg" width="100%" height="200px">
+            </div>
+            <div class="column">
+                <img src="41.jpg" width="100%" height="200px">
+            </div>
+            <div class="column">
+                <img src="37.jpg" width="100%" height="200px">
+            </div>
+        </div>
     </div>
-
 </body>
 
 </html>
