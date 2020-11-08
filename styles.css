@@ -58,3 +58,34 @@ body {
 .active-nav-link a {
     color: darkorange !important;
 }
+
+/*Cover image css*/
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('Apartment.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;    
+}
+
+.tagline{
+    padding-left: 100px;
+    color: rgb(253, 248, 238)
+}
+.btn {
+    text-decoration: none;
+    padding-left: 100px;
+    display: inline-block;
+    background: darkorange;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 2px;
+}
+
+.tagline a:hover{
+    background: rgb(228, 125, 0);
+}
+
