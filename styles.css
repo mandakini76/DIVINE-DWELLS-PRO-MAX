@@ -89,3 +89,33 @@ body {
     background: rgb(228, 125, 0);
 }
 
+/*page brief*/
+
+.brief{
+    text-align: center;
+    
+    color: #525252 ;    
+}
+
+.brief span{
+    color:darkorange;
+}
+
+.brief ::after{
+    content: none;
+    background: darkorange;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.content p{
+    text-align: center;
+    justify-content: center;
+}
+
